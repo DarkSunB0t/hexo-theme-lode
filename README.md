@@ -1,10 +1,8 @@
-# Magnetic Blog Hexo
+# Lode Blog Hexo
 
 ![](http://www.codeblocq.com/img/hexo-theme-thumbnail/Magnetic.png)
 
-Hexo implementation of the free [HTML5 Magnetic Template](http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/)
-
-Magnetic is a photography/design portfolio oriented, responsive theme. [Demo here](http://www.codeblocq.com/assets/projects/hexo-theme-magnetic/).
+LODE is a photography/design portfolio oriented, responsive theme. [Demo not ready](https://github.com/DarkSunB0t/hexo-theme-lode/).
 
 ## Features Overview
 
@@ -20,7 +18,14 @@ Magnetic is a photography/design portfolio oriented, responsive theme. [Demo her
 ## Not Supported
 
 - Post Categories will not be displayed
-- Posts and Pages Dates not displayed anywhere 
+- Posts and Pages Dates not displayed anywhere
+
+## ToDo
+
+- Display post categories, pages, dates
+- Create site statistics customizable charts
+- Upgrade Archives and About pages
+- Comment support with [Gittalk](https://github.com/gitalk/gitalk)
 
 ## External libraries used
 
@@ -30,10 +35,10 @@ Magnetic is a photography/design portfolio oriented, responsive theme. [Demo her
 ## Installation
 
 ```
-$ git clone https://github.com/klugjo/hexo-theme-magnetic themes/magnetic
+$ git clone https://github.com/DarkSunB0t/hexo-theme-lode/lode
 ```
 
-Then update your blog's main `_config.yml` to set the theme to `magnetic`:
+Then update your blog's main `_config.yml` to set the theme to `lode`:
 
 i.e:
 
@@ -41,12 +46,12 @@ i.e:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: magnetic
+theme: lode
 ```
 
 ## Theme Configuration
 
-The theme's global configuration is done in `/themes/hexo-theme-magnetic/_config.yml`.
+The theme's global configuration is done in `/themes/hexo-theme-lode/_config.yml`.
 
 ### Menu
 
@@ -131,7 +136,7 @@ twitter_url:
 facebook_url:
 behance_url:
 googleplus_url:
-dribble_url: 
+dribble_url:
 rss_url:
 ```
 
@@ -159,8 +164,8 @@ cover_detail: /assets/hero_image.jpg
 
 ## Creator
 
-This theme was created by [Pixel Hint](http://pixelhint.com/) and adapted for Hexo by [Jonathan Klughertz](http://www.codeblocq.com/).
+This theme was based on Magnetic theme by [Jonathan Klughertz](http://www.codeblocq.com/).
 
 ## Bugs
 
-If you have a question, feature request or a bug you need me to fix, please [click here](https://github.com/klugjo/hexo-theme-magnetic/issues/new) to file an issue.
+If you have a question, feature request or a bug you need me to fix, please [click here](https://github.com/DarkSunB0t/hexo-theme-lode/issues/new) to file an issue.
